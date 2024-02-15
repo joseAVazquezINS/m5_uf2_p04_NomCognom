@@ -6,8 +6,11 @@
  */
 function suma(...valors) {
     let resultat = 0 // Creo una variable per guardar el resultat
+    
     for (let i = 0; i < valors.length; i++) {
+        
         // Itero les files de la matriu fins que la variable i sigui menor que la variable valors.length
+        
         resultat += valors[i] // Afegeixo el valor de l'argument actual a la suma total
     }
 
